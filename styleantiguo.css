@@ -1,0 +1,476 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    display: inline-block;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: azure;
+    color: rgb(10, 10, 60);
+}
+a:link{
+    background-color: aqua;
+    color: darkslateblue;
+}
+a:hover{
+    font-weight: bold;
+    padding: 20px;
+    background-color: rgb(10, 10, 60);
+    color: azure;
+}
+a:visited{
+    background-color: darkslategrey;
+    color: #999;
+}
+@font-face{
+    font-family: marcellus;
+    src: url(assets/fuentes/marcellus/Marcellus_SC.zip);
+    font-family: plante;
+    src: url(assets/fuentes/Plante.ttf);
+    font-family: KGDefyingGravity;
+    src: url(assets/fuentes/KGDefyingGravity.ttf);
+}
+.login{
+    position: relative;
+    left: 650px;
+    background-color: beige;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+}
+.subcontacto{
+    position: relative;
+    margin-top: 100px;
+    background-color: beige;
+    vertical-align: top;
+    height: 300px;
+    width: 30%;
+}
+.viaweb{
+    position: relative;
+    margin-top: 100px;
+    background-color: beige;
+    vertical-align: top;
+}
+.viaig{
+    margin-top: 100px;
+    position: relative;
+    bottom: 76%;
+    left: 110%;
+    height: 300px;
+    width: 100%;
+    background-color: beige;
+    vertical-align: top;
+    background-image: url(assets/img/ig.jpg);
+}
+.viawpp{
+    margin-top: 100px;
+    position: relative;
+    bottom: 210%;
+    left: 234%;
+    height: 300px;
+    width: 100%;
+    background-color: beige;
+    vertical-align: top;
+    background-image: url(assets/img/fondowpp.jpg);
+}
+#viapag{
+    text-align: center;
+    font-size: 36px;
+}
+#explipag{
+    font-size: 24px;
+    margin-top: 30px;
+}
+#igpag{
+    background-color: rgba(17,60,106,255);
+    font-size: 35px;
+    margin-top: 216px;
+}
+#wpppag{
+    font-size: 36px;
+    margin-top: 100px;
+    text-align: center;
+    background-color: beige
+}
+
+.logo-header{
+    text-align: center;
+    font-size: 50px;
+    font-family: KGDefyingGravity;
+    height: 50px;
+}
+.body-inicio {
+    font-size: 14px;
+    background-image: url("img/pexels-rachel-claire-5864245.jpg");
+    background-size: cover;
+  }
+  .body-zapatillas{
+    background-image: url(assets/img/fondozapatillas.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .body-remeras{
+    background-image: url(assets/img/fondoremera1.jpg);
+  }
+  .body-buzos{
+    background-image: url(assets/img/fondobuzo0.jpg);
+  }
+  .body-contacto{
+    background-image: url(assets/img/fondocontacto.jpg);
+  }
+
+  
+.cabecera{ 
+    height: 120px;
+    width: 100%;
+    background-color: beige;
+    padding: 10px;
+}
+.cabecera{
+    list-style: none;
+}
+.navbar ul li{ 
+    background-color: beige;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    
+}
+.navbar{
+    width: 101%;
+    margin-top: 15px;
+    text-align: center;
+    position: relative;
+    top: 0;
+
+    
+}
+.navbar-seccion{
+    text-align: center;
+    position: relative;
+    background-color: beige;
+    top: 0;
+    margin-top: 10px;
+}
+.navbar-seccion ul li{
+    text-align: center;
+    display: inline;
+    padding: 5px;
+    margin: 5px;
+    
+}
+.subitem{
+    display: inline-block;
+    }
+    .subitem-seccion{
+    display: inline-block;
+    }
+.main{
+    padding: 2px;
+    margin: 2px;
+}
+.categorias{
+    background-color: beige;
+    display: inline-block;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+}
+.categorias-seccion{
+    background-color: rgb(255, 255, 255, 0);
+    display: inline-block;
+
+}
+.somos{
+    width: 96%;
+    background-color: beige;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    margin: 15px;
+
+}
+
+.hombre{
+    display: inline-block;
+    width: 23,1%;
+    vertical-align: top;
+    }
+#hombre1{
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: beige;
+    display: flex;
+    height: 450px; 
+}   
+.divmujer{
+    width: auto;
+}
+.mujeres{
+    margin-top: 50px;
+    display: inline-block;
+    float: right;
+     width: 16,5%;
+    vertical-align: top;
+    }
+    #mujeress{
+        border-style: solid;
+        border-width: 5px;
+        border-color: beige;
+        height: 450px; 
+    }
+.ninos{
+    margin-top: 50px;
+    display: inline-block;
+    top: 10;
+    right: 0;
+    width: 50%;
+    vertical-align: top; 
+    position: relative;
+    left: 450px;
+}
+#ninioropa{
+    border-style: solid;
+    border-width: 5px;
+    border-color: beige;
+    display: flex;
+    height: 450px;
+}
+#subman{
+    font-size: 36px;
+    font-family: monospace;
+}
+#subwoman{
+    font-size: 36px;
+    font-family: monospace;
+}
+.zapanike{
+    margin-top: 50px;
+    background-image: url(assets/img/zapanike.jpg);
+    border-style: solid;
+    border-width: 5px;
+    }
+.intro-zapas{
+    margin-top: 50px;
+    width: 97%;
+    background-color: beige;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    margin: 15px;
+}
+.intro-remeras{
+    margin-top: 50px;
+    width: 97%;
+    background-color: beige;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    margin: 15px;
+}
+.nike{
+    margin-top: 100px;
+    display: inline-block;
+    width: 23,1%;
+    vertical-align: top;
+}
+#zapasnike{
+    border-style: solid;
+    border-width: 5px;
+    border-color: beige;
+    display: flex;
+    height: 450px; 
+}
+.adidas{
+    margin-top: 100px;
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+}
+#zapaadidas{
+    border-style: solid;
+    border-width: 5px;
+    border-color: beige;
+    display: flex;
+    height: 450px; 
+}
+.tabla-zapas{
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: center;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 685px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.15);
+}
+.tabla-zapas thead tr{
+    background-color: beige;
+    color: black;
+    text-align: center;
+}
+.tabla-zapas th,
+.tabla-zapas td{
+    padding: 12px 15px;
+}
+.tabla-zapas tbody tr{
+    background-color: beige;
+    border-bottom: 1px solid beige;
+}
+#tabla-letra{
+    text-align: center;
+}
+.puma{
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: beige;
+    display: flex;
+    height: 500px;
+    width: 40%;
+    background-image: url(assets/img/zapasadidas.jpg);
+}
+.zapas-2{
+    margin-top: 100px;
+}
+#zapasprime{
+    border-style: solid;
+    border-width: 5px;
+    border-color: beige;
+    display: flex;
+    height: 450px;
+    width: 99%;
+}
+.footer.home{
+    margin-top: 50px;
+}
+.footer-zapas{
+    margin-top: 50px;
+}
+.footer-reme{
+    margin-top: 50px;
+}
+.rem-nike{
+    background-image: url(assets/img/remenike.jpg);
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: beige;
+    height: 400px;
+    width: 35%;
+}
+.rem-adidas{
+    background-image: url(assets/img/remeadidas.jpg);
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: beige;
+    height: 400px;
+    width: 35%;
+}
+.rem-puma{
+    background-image: url(assets/img/remepuma.jpg);
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: beige;
+    height: 400px;
+    width: 35%;
+}
+.rem-prime{
+    background-image: url(assets/img/remeprime.jpg);
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: beige;
+    height: 400px;
+    width: 35%;
+}
+.rem-futbol{
+    background-image: url(assets/img/remefutbol.jpg);
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: beige;
+    height: 400px;
+    width: 35%;
+}
+.tabla-buzos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: center;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 460px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.15);
+}
+.tabla-buzos thead tr{
+    background-color: beige;
+    color: black;
+    text-align: center;
+}
+.tabla-buzos th,
+.tabla-buzos td{
+    padding: 12px 15px;
+}
+.tabla-buzos tbody tr{
+    background-color: beige;
+    border-bottom: 1px solid beige;
+}
+.buzonike1{
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: beige;
+    display: flex;
+    height: 450px; 
+}
+#buzo2{
+    margin-right: 50px;
+}
+.buzonike1{
+    background-color: #f3f2f2;
+    display: inline-block;
+    width: 23,1%;
+    vertical-align: top;
+  }
+  .buzoadidas1{
+    margin-top: 50px;
+    display: inline-block;
+    float: right;
+     width: 62%;
+    vertical-align: top;
+  }
+  #buzoadidass{
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: beige;
+    display: flex;
+    height: 450px; 
+}
+.buzopuma{
+    margin-top: 50px;
+    display: inline-block;
+    float: right;
+    position: fixed;
+    top: 10;
+    right: 0;
+    width: 25%;
+    vertical-align: top; 
+}
+#buzitopuma{
+    border-style: solid;
+    border-width: 5px;
+    border-color: beige;
+    display: flex;
+    height: 450px; 
+}
+  
